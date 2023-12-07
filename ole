@@ -1,0 +1,8 @@
+        let shapeReducer = ShapeReducer(mediaReducer: mediaReducer)
+        let textReducer = TextReducer()
+        let stickerReducer = StickerReducer()
+        let elementsTransformer = ElementsTransformer()
+        
+        let collageReducer = CollageReducer(shapeReducer: shapeReducer,
+                                            textReducer: textReducer,
+                                            stickerReducer: stickerReducer)
